@@ -13,7 +13,7 @@ import java.net.URI;
  * The existing RestActivator remains available for WAR/servlet deployment.
  */
 public final class Main {
-    private static final URI BASE_URI = URI.create("http://localhost:8080/rest/");
+    private static final URI BASE_URI = URI.create("http://localhost:8081/rest/");
 
     private Main() {
         // Utility class; do not instantiate.
